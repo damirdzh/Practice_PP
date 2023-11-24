@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAE4CC"
+    tools:context=".beliygrib5">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="421dp"
+        android:layout_height="267dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/belyjgrib" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="396dp"
+        android:layout_height="367dp"
+        android:layout_marginStart="4dp"
+        android:background="#EAE4CC"
+        android:text="Белый гриб - это крупный и крепкий плотный гриб, поверхность шляпки которого может быть разных оттенков коричневого цвета и во влажном состоянии несколько липкая на ощупь. Споры гриба узкие, у молодых грибов они светло-серого цвета, у более зрелых - желто-зеленые. Мякоть гриба плотная и устойчиво белая."
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="149dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="5dp"
+        android:background="#00FFFFFF"
+        android:onClick="button11"
+        android:text="В главное меню"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="149dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="5dp"
+        android:background="#00FFFFFF"
+        android:onClick="button12"
+        android:text="Назад"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.959" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

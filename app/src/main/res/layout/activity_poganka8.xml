@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAE4CC"
+    tools:context=".poganka8">
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="434dp"
+        android:layout_height="235dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/poganka" />
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="398dp"
+        android:layout_height="379dp"
+        android:text="Шляпка 5—15 см, оливковая, зеленоватая или сероватая, от полушаровидной до плоской формы, с гладким краем и волокнистой поверхностью. Мякоть белая, мясистая, не меняет цвет при повреждении, со слабовыраженным вкусом и запахом. Ножка 8—16 × 1—2,5 см, цилиндрическая, с утолщением («мешочек») в основании."
+        android:textSize="26dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="149dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="5dp"
+        android:background="#00FFFFFF"
+        android:onClick="button29"
+        android:text="В главное меню"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="149dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="5dp"
+        android:background="#00FFFFFF"
+        android:onClick="button30"
+        android:text="Назад"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96"
+        tools:ignore="TextSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>
